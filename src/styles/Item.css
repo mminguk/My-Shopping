@@ -1,0 +1,9 @@
+#item{
+    text-align: center;
+}
+#item>img{
+    width: 300px;
+}
+.other-items{
+    display: flex;
+}
