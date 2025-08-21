@@ -7,3 +7,17 @@
 .other-items{
     display: flex;
 }
+.nav{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+}
+.nav>button {
+    border: none;
+    background-color: lightgray;
+    width: 100px;
+    padding: 10px;
+}
+.nav>button:active{
+    background-color: gray;
+}
