@@ -12,7 +12,7 @@ app.get('/',function(req,res){
 })
 
 app.get('/login',function(req,res){
-    console.log('login');
+    console.log();
 })
 
 app.listen(8080, function(){
