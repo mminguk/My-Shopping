@@ -1,6 +1,9 @@
 a{
     margin: auto;
-
+    text-decoration: none;
+}
+.menu-btn{
+    color: white;
 }
 #container{
     display: flex;

@@ -15,6 +15,10 @@ app.get('/login',function(req,res){
     console.log();
 })
 
+app.get('/login_process',function(req,res){
+    res.redirect('/');
+})
+
 app.listen(8080, function(){
     console.log('listing 8080');
 })

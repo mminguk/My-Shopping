@@ -1,0 +1,29 @@
+#user_id, #user_pwd{
+    padding: 10px;
+}
+#login_wrapper{
+    background-image: url('../images/login_background.jpg');
+    height: 1000px;
+}
+#login_container{
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    margin: 5% auto;
+    background-color: rgba(255, 255, 255,.5);
+}
+#login-logo{
+    padding-top: 20px;
+}
+#login_btn{
+    display: block;
+    margin: 0 auto;
+    width: 193px;
+    height: 39px;
+    border: none;
+    color: white;
+    background-color: green;
+}
+#login_btn:active{
+    background-color: gray;
+}
