@@ -8,15 +8,8 @@ import Create from './crud/Create';
 import Item from './component/Item';
 import Home from "./component/Home";
 import './App.css';
-import { useEffect } from "react";
 
 export default function App(){
-
-  useEffect(()=>{
-    fetch("http://localhost:8080/api")
-    .then(res=>res.json())
-    .then(data=>console.log(data))
-  })
 
 
     return (
